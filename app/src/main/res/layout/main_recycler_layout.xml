@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_margin="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relMaintitle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlestxt"
+        android:text="titlestxt"
+        android:inputType="textMultiLine"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/chooseImage"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseImage"
+        android:text="Add image"
+        android:textAllCaps="false"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemRecyclerMain"
+        android:layout_below="@id/relMaintitle"
+        android:layout_marginTop="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/itemRecyclerMain"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525551333284",
+    "project_id": "osos-assignment",
+    "storage_bucket": "osos-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525551333284:android:2b9609301f60d7d0049b31",
+        "android_client_info": {
+          "package_name": "com.android.ososassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525551333284-l3natnn32eu0j58ksivmh5717mooi0rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDHK3MPuSGX3Z74pL1eydXIjOkthbqH_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525551333284-l3natnn32eu0j58ksivmh5717mooi0rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
