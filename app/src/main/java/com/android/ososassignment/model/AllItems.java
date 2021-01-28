@@ -4,18 +4,26 @@ public class AllItems {
 
     public AllItems() {}
 
-    String imglink;
+    String imglink, imgname;
 
-    public AllItems(String imglink) {
+    public AllItems(String imglink, String imgname) {
         this.imglink = imglink;
+        this.imgname = imgname;
     }
 
-    public String getImageUrl() {
+    public String getImglink() {
         return imglink;
     }
 
-    public void setImageUrl(String imglink) {
+    public void setImglink(String imglink) {
         this.imglink = imglink;
     }
 
+    public String getImgname() {
+        return imgname;
+    }
+
+    public void setImgname(String imgname) {
+        this.imgname = imgname;
+    }
 }
